@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(255, 240, 255);
+}
+header {
+  height: 500px;
+  
+}
+header nav {
+  height: 100px;
+  background-color: rgb(255, 240, 255);
+  box-shadow: none;
+}
+nav .brand-logo {
+  height: 100px;
+  left: 15%;
+}
+nav .brand-logo img  {
+  width: 52px;
+}
+header nav ul {
+  height: 100px;
+}
+header ul a {
+  color: grey;
+}
+.header-main-pic {
+  width: 100%;
+  height: 400px;
+  background: url("https://i.postimg.cc/7PFZJL0m/Banner.jpg") center/cover no-repeat;
+}
+.row.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.input-field.input-container {
+  height: 100px;
+  margin: 0 auto;
+}
+.input-field > #search {
+  margin-top: 25px;
+}
+.input-container i {
+  position: relative;
+  top: 67px;
+  left: -30px;
+}
+.card .card-content {
+  background-color: rgb(196, 189, 197);
+}
+.card .card-reveal {
+  background-color: rgb(199, 172, 202);
+}
+footer.page-footer {
+  height: 80px;
+  background: grey;
+  bottom: 0;
+}
+
+/* Post.html */
+.post-pic {
+  width: 100%;
+  height: 400px;
+  background: url("https://picsum.photos/800/400") center/cover no-repeat;
+}
+
+/* Sign-up styles */
+.signup-title {
+  margin-top: 80px;
+}
+.signup-header {
+  height: 400px;
+}
